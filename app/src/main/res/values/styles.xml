@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 标签按钮样式 -->
+    <style name="TabButton">
+        <item name="android:background">@drawable/tab_button_selector</item>
+        <item name="android:textColor">@color/tab_text_selector</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+    
+    <!-- 主要按钮样式 -->
+    <style name="PrimaryButton">
+        <item name="android:background">@drawable/primary_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+    
+    <!-- 次要按钮样式 -->
+    <style name="SecondaryButton">
+        <item name="android:background">@drawable/secondary_button_background</item>
+        <item name="android:textColor">@color/primary_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+    
+    <!-- 输入框样式 -->
+    <style name="InputEditText">
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    
+    <!-- 标题文本样式 -->
+    <style name="TitleText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <!-- 子标题文本样式 -->
+    <style name="SubtitleText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <!-- 卡片样式 -->
+    <style name="CardView">
+        <item name="android:background">@drawable/card_background</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    
+    <!-- 计算器按钮样式 -->
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+    
+    <!-- 数字按钮样式 -->
+    <style name="CalculatorButton.Number">
+        <item name="android:background">@drawable/number_button_background</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    
+    <!-- 运算符按钮样式 -->
+    <style name="CalculatorButton.Operator">
+        <item name="android:background">@drawable/operator_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    <!-- 等号按钮样式 -->
+    <style name="CalculatorButton.Equals">
+        <item name="android:background">@drawable/equals_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
